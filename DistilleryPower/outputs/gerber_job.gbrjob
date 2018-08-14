@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.0*%
+%TF.CreationDate,2018-08-14T15:45:10Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Gleb Chashchukhin <mr.savec@mail.ru>*%
+%TJ.B_ID,power*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,50.000000*%
+%TJ.B_Size_Y,86.900000*%
+M02*
