@@ -24609,195 +24609,195 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="IC4" library="allegro" deviceset="ACS758*" device="" technology="LCB-050B-PFF-T"/>
-<part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="J3" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
+<part name="IC1" library="allegro" deviceset="ACS758*" device="" technology="LCB-050B-PFF-T"/>
+<part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="68p"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
+<part name="J1" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
 <part name="D1" library="diode" deviceset="BAV199" device=""/>
-<part name="D2" library="diode" deviceset="BAV199" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="120k"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="120k"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="330k"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="220"/>
+<part name="D4" library="diode" deviceset="BAV199" device=""/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="120k"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="120k"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R1206" value="330k"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="220"/>
 <part name="D3" library="diode" deviceset="ZENER-DIODE" device="SOD80C"/>
-<part name="D4" library="diode" deviceset="DIODE-" device="SOD523"/>
+<part name="D2" library="diode" deviceset="DIODE-" device="SOD523"/>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="C/6032-28R" value="0.47/50"/>
 <part name="Q1" library="transistor-pnp" deviceset="BC807*" device="SMD" technology="-16LT1"/>
 <part name="G1" library="distillery" deviceset="TLP181" device=""/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
+<part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
 <part name="T1" library="distillery" deviceset="BT138" device="-DSH" value="BT138-DSH"/>
 <part name="OK1" library="optocoupler" deviceset="MOC30*M" device="" technology="21"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="0.01/500"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="M1206" value="380/0.25"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="M1206" value="39/0.25"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="M1206" value="330/0.25"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="0.01/500"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="M1206" value="380/0.25"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="M1206" value="39/0.25"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="M1206" value="330/0.25"/>
 <part name="U1" library="stm32f0" deviceset="STM32F042KXTX" device=""/>
-<part name="IC3" library="SparkFun" deviceset="V_REG_LM1117" device="SOT223"/>
-<part name="J1" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="CPOL-EU" device="SMCB" value="10u/25"/>
-<part name="C13" library="rcl" deviceset="CPOL-EU" device="SMCB" value="10u/25"/>
-<part name="+3V310" library="supply1" deviceset="+3V3" device=""/>
+<part name="IC2" library="SparkFun" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="J3" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="C5" library="rcl" deviceset="CPOL-EU" device="SMCB" value="10u/25"/>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="SMCB" value="10u/25"/>
+<part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="SV1" library="distillery" deviceset="CON-LSTB_MA06-1" device=""/>
 <part name="X1" library="distillery" deviceset="IQD-FREQUENCY-PRODUCTS_CRYSTALS-NOGND" device="-4-HSMX"/>
-<part name="IC2" library="distillery" deviceset="MICROCHIP_BY_ELEMENT14_BATCH_1_24LC16B-I/SN" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100p"/>
-<part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
+<part name="IC3" library="distillery" deviceset="MICROCHIP_BY_ELEMENT14_BATCH_1_24LC16B-I/SN" device=""/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="100p"/>
+<part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="20p"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="20p"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="220"/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="IC1" library="distillery" deviceset="SN65HVD230/1" device=""/>
-<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="220"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="120/1%"/>
-<part name="J4" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="J5" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="X2" library="con-3m" library_urn="urn:adsk.eagle:library:119" deviceset="2516-" device="" package3d_urn="urn:adsk.eagle:package:5574/1"/>
-<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="IC4" library="distillery" deviceset="SN65HVD230/1" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="+3V310" library="supply1" deviceset="+3V3" device=""/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100"/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="120/1%"/>
+<part name="J4" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="J5" library="distillery" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="X2" library="con-3m" library_urn="urn:adsk.eagle:library:119" deviceset="2516-" device="" package3d_urn="urn:adsk.eagle:package:5574/1"/>
+<part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
-<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="IC4" gate="G$1" x="210.82" y="78.74"/>
-<instance part="+3V39" gate="G$1" x="231.14" y="91.44"/>
-<instance part="R5" gate="G$1" x="134.62" y="-17.78" rot="R90"/>
-<instance part="C16" gate="G$1" x="231.14" y="76.2"/>
-<instance part="C17" gate="G$1" x="233.68" y="83.82" rot="R90"/>
-<instance part="C5" gate="G$1" x="134.62" y="-25.4"/>
-<instance part="R15" gate="G$1" x="226.06" y="78.74"/>
-<instance part="R6" gate="G$1" x="149.86" y="66.04"/>
-<instance part="GND17" gate="1" x="226.06" y="68.58"/>
-<instance part="GND18" gate="1" x="241.3" y="83.82" rot="R90"/>
-<instance part="J3" gate="G$1" x="210.82" y="43.18"/>
-<instance part="J2" gate="G$1" x="210.82" y="58.42"/>
+<instance part="IC1" gate="G$1" x="210.82" y="78.74"/>
+<instance part="+3V31" gate="G$1" x="231.14" y="91.44"/>
+<instance part="R12" gate="G$1" x="134.62" y="-17.78" rot="R90"/>
+<instance part="C2" gate="G$1" x="231.14" y="76.2"/>
+<instance part="C1" gate="G$1" x="233.68" y="83.82" rot="R90"/>
+<instance part="C13" gate="G$1" x="134.62" y="-25.4"/>
+<instance part="R1" gate="G$1" x="226.06" y="78.74"/>
+<instance part="R4" gate="G$1" x="149.86" y="66.04"/>
+<instance part="GND2" gate="1" x="226.06" y="68.58"/>
+<instance part="GND1" gate="1" x="241.3" y="83.82" rot="R90"/>
+<instance part="J2" gate="G$1" x="210.82" y="43.18"/>
+<instance part="J1" gate="G$1" x="210.82" y="58.42"/>
 <instance part="D1" gate="G$1" x="81.28" y="45.72" rot="MR270"/>
-<instance part="D2" gate="G$1" x="81.28" y="27.94" rot="MR270"/>
-<instance part="R1" gate="G$1" x="73.66" y="45.72"/>
-<instance part="R2" gate="G$1" x="73.66" y="27.94"/>
-<instance part="R3" gate="G$1" x="104.14" y="35.56" rot="R90"/>
-<instance part="R4" gate="G$1" x="119.38" y="38.1"/>
+<instance part="D4" gate="G$1" x="81.28" y="27.94" rot="MR270"/>
+<instance part="R7" gate="G$1" x="73.66" y="45.72"/>
+<instance part="R10" gate="G$1" x="73.66" y="27.94"/>
+<instance part="R9" gate="G$1" x="104.14" y="35.56" rot="R90"/>
+<instance part="R8" gate="G$1" x="119.38" y="38.1"/>
 <instance part="D3" gate="G$1" x="96.52" y="35.56" rot="R90"/>
-<instance part="D4" gate="G$1" x="111.76" y="45.72" rot="R270"/>
+<instance part="D2" gate="G$1" x="111.76" y="45.72" rot="R270"/>
 <instance part="C4" gate="G$1" x="111.76" y="30.48"/>
 <instance part="Q1" gate="G$1" x="129.54" y="40.64" rot="MR270"/>
 <instance part="G1" gate="G$1" x="144.78" y="35.56"/>
-<instance part="GND6" gate="1" x="154.94" y="27.94"/>
-<instance part="R7" gate="G$1" x="154.94" y="48.26" rot="R90"/>
-<instance part="+3V35" gate="G$1" x="154.94" y="55.88"/>
+<instance part="GND4" gate="1" x="154.94" y="27.94"/>
+<instance part="R6" gate="G$1" x="154.94" y="48.26" rot="R90"/>
+<instance part="+3V32" gate="G$1" x="154.94" y="55.88"/>
 <instance part="T1" gate="G$1" x="187.96" y="66.04"/>
 <instance part="OK1" gate="-1" x="165.1" y="71.12"/>
-<instance part="C9" gate="G$1" x="195.58" y="60.96"/>
-<instance part="R10" gate="G$1" x="180.34" y="76.2"/>
-<instance part="R12" gate="G$1" x="195.58" y="68.58" rot="R90"/>
-<instance part="R11" gate="G$1" x="180.34" y="60.96" rot="R90"/>
+<instance part="C3" gate="G$1" x="195.58" y="60.96"/>
+<instance part="R2" gate="G$1" x="180.34" y="76.2"/>
+<instance part="R3" gate="G$1" x="195.58" y="68.58" rot="R90"/>
+<instance part="R5" gate="G$1" x="180.34" y="60.96" rot="R90"/>
 <instance part="U1" gate="G$1" x="99.06" y="-53.34"/>
-<instance part="IC3" gate="G$1" x="208.28" y="22.86"/>
-<instance part="J1" gate="G$1" x="185.42" y="20.32" rot="R180"/>
-<instance part="GND13" gate="1" x="208.28" y="12.7"/>
-<instance part="C10" gate="G$1" x="198.12" y="20.32"/>
-<instance part="C13" gate="G$1" x="220.98" y="20.32"/>
-<instance part="+3V310" gate="G$1" x="233.68" y="27.94"/>
+<instance part="IC2" gate="G$1" x="208.28" y="22.86"/>
+<instance part="J3" gate="G$1" x="185.42" y="20.32" rot="R180"/>
+<instance part="GND5" gate="1" x="208.28" y="12.7"/>
+<instance part="C5" gate="G$1" x="198.12" y="20.32"/>
+<instance part="C6" gate="G$1" x="220.98" y="20.32"/>
+<instance part="+3V33" gate="G$1" x="233.68" y="27.94"/>
 <instance part="SV1" gate="1" x="185.42" y="-10.16" rot="R180"/>
 <instance part="X1" gate="G$1" x="210.82" y="-5.08"/>
-<instance part="IC2" gate="A" x="203.2" y="-50.8"/>
-<instance part="C7" gate="G$1" x="167.64" y="0" rot="R90"/>
-<instance part="+3V37" gate="G$1" x="175.26" y="2.54"/>
+<instance part="IC3" gate="A" x="203.2" y="-50.8"/>
+<instance part="C8" gate="G$1" x="167.64" y="0" rot="R90"/>
+<instance part="+3V36" gate="G$1" x="175.26" y="2.54"/>
 <instance part="GND8" gate="1" x="162.56" y="-7.62" rot="R270"/>
-<instance part="GND7" gate="1" x="162.56" y="0" rot="R270"/>
-<instance part="GND4" gate="1" x="134.62" y="-33.02"/>
-<instance part="+3V33" gate="G$1" x="134.62" y="-10.16"/>
+<instance part="GND6" gate="1" x="162.56" y="0" rot="R270"/>
+<instance part="GND11" gate="1" x="134.62" y="-33.02"/>
+<instance part="+3V37" gate="G$1" x="134.62" y="-10.16"/>
 <instance part="C11" gate="G$1" x="205.74" y="-10.16" rot="R180"/>
 <instance part="C12" gate="G$1" x="215.9" y="-10.16" rot="R180"/>
-<instance part="R14" gate="G$1" x="215.9" y="0" rot="R90"/>
-<instance part="GND14" gate="1" x="210.82" y="-15.24"/>
-<instance part="+3V32" gate="G$1" x="91.44" y="7.62"/>
-<instance part="C1" gate="G$1" x="60.96" y="-2.54" rot="R180"/>
-<instance part="C3" gate="G$1" x="66.04" y="2.54" rot="R180"/>
-<instance part="C2" gate="G$1" x="71.12" y="-2.54" rot="R180"/>
-<instance part="GND3" gate="1" x="101.6" y="-109.22"/>
-<instance part="GND2" gate="1" x="73.66" y="-99.06"/>
-<instance part="+3V38" gate="G$1" x="182.88" y="-35.56"/>
-<instance part="C8" gate="G$1" x="175.26" y="-43.18" rot="R90"/>
-<instance part="GND10" gate="1" x="170.18" y="-43.18" rot="R270"/>
-<instance part="GND11" gate="1" x="182.88" y="-71.12"/>
-<instance part="IC1" gate="G$1" x="177.8" y="-96.52"/>
-<instance part="GND12" gate="1" x="195.58" y="-93.98" rot="R90"/>
-<instance part="GND9" gate="1" x="162.56" y="-96.52" rot="R270"/>
-<instance part="C6" gate="G$1" x="152.4" y="-99.06" rot="R90"/>
-<instance part="GND5" gate="1" x="147.32" y="-99.06" rot="R270"/>
-<instance part="+3V36" gate="G$1" x="157.48" y="-93.98"/>
-<instance part="R8" gate="G$1" x="154.94" y="-91.44" rot="R180"/>
-<instance part="R9" gate="G$1" x="154.94" y="-104.14" rot="R180"/>
-<instance part="R13" gate="G$1" x="208.28" y="-99.06" rot="R90"/>
+<instance part="R11" gate="G$1" x="215.9" y="0" rot="R90"/>
+<instance part="GND9" gate="1" x="210.82" y="-15.24"/>
+<instance part="+3V35" gate="G$1" x="91.44" y="7.62"/>
+<instance part="C9" gate="G$1" x="60.96" y="-2.54" rot="R180"/>
+<instance part="C7" gate="G$1" x="66.04" y="2.54" rot="R180"/>
+<instance part="C10" gate="G$1" x="71.12" y="-2.54" rot="R180"/>
+<instance part="GND24" gate="1" x="101.6" y="-109.22"/>
+<instance part="GND20" gate="1" x="73.66" y="-99.06"/>
+<instance part="+3V39" gate="G$1" x="182.88" y="-35.56"/>
+<instance part="C14" gate="G$1" x="175.26" y="-43.18" rot="R90"/>
+<instance part="GND12" gate="1" x="170.18" y="-43.18" rot="R270"/>
+<instance part="GND14" gate="1" x="182.88" y="-71.12"/>
+<instance part="IC4" gate="G$1" x="177.8" y="-96.52"/>
+<instance part="GND18" gate="1" x="195.58" y="-93.98" rot="R90"/>
+<instance part="GND19" gate="1" x="162.56" y="-96.52" rot="R270"/>
+<instance part="C19" gate="G$1" x="152.4" y="-99.06" rot="R90"/>
+<instance part="GND21" gate="1" x="147.32" y="-99.06" rot="R270"/>
+<instance part="+3V310" gate="G$1" x="157.48" y="-93.98"/>
+<instance part="R24" gate="G$1" x="154.94" y="-91.44" rot="R180"/>
+<instance part="R26" gate="G$1" x="154.94" y="-104.14" rot="R180"/>
+<instance part="R25" gate="G$1" x="208.28" y="-99.06" rot="R90"/>
 <instance part="J4" gate="G$1" x="231.14" y="-86.36" rot="MR90"/>
-<instance part="C14" gate="G$1" x="226.06" y="-91.44" rot="MR90"/>
-<instance part="GND15" gate="1" x="218.44" y="-91.44" rot="MR90"/>
+<instance part="C17" gate="G$1" x="226.06" y="-91.44" rot="MR90"/>
+<instance part="GND16" gate="1" x="218.44" y="-91.44" rot="MR90"/>
 <instance part="C18" gate="G$1" x="236.22" y="-91.44" rot="MR270"/>
-<instance part="GND19" gate="1" x="243.84" y="-91.44" rot="MR270"/>
+<instance part="GND17" gate="1" x="243.84" y="-91.44" rot="MR270"/>
 <instance part="J5" gate="G$1" x="231.14" y="-111.76" rot="R270"/>
-<instance part="C15" gate="G$1" x="226.06" y="-106.68" rot="R270"/>
-<instance part="GND16" gate="1" x="218.44" y="-106.68" rot="R270"/>
-<instance part="C19" gate="G$1" x="236.22" y="-106.68" rot="R90"/>
-<instance part="GND20" gate="1" x="243.84" y="-106.68" rot="R90"/>
+<instance part="C20" gate="G$1" x="226.06" y="-106.68" rot="R270"/>
+<instance part="GND22" gate="1" x="218.44" y="-106.68" rot="R270"/>
+<instance part="C21" gate="G$1" x="236.22" y="-106.68" rot="R90"/>
+<instance part="GND23" gate="1" x="243.84" y="-106.68" rot="R90"/>
 <instance part="X2" gate="-1" x="259.08" y="-20.32"/>
 <instance part="X2" gate="-2" x="259.08" y="-22.86"/>
 <instance part="X2" gate="-3" x="259.08" y="-25.4"/>
@@ -24814,105 +24814,105 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="X2" gate="-14" x="259.08" y="-53.34"/>
 <instance part="X2" gate="-15" x="259.08" y="-55.88"/>
 <instance part="X2" gate="-16" x="259.08" y="-58.42"/>
-<instance part="+3V1" gate="G$1" x="281.94" y="-17.78" smashed="yes">
+<instance part="+3V38" gate="G$1" x="281.94" y="-17.78" smashed="yes">
 <attribute name="VALUE" x="289.56" y="-17.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND21" gate="1" x="276.86" y="-20.32" smashed="yes" rot="R90">
+<instance part="GND10" gate="1" x="276.86" y="-20.32" smashed="yes" rot="R90">
 <attribute name="VALUE" x="274.32" y="-17.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R24" gate="G$1" x="269.24" y="-45.72" smashed="yes" rot="R180">
+<instance part="R21" gate="G$1" x="269.24" y="-45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-43.6626" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-43.688" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R25" gate="G$1" x="269.24" y="-48.26" smashed="yes" rot="R180">
+<instance part="R22" gate="G$1" x="269.24" y="-48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-46.2026" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-46.228" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R26" gate="G$1" x="269.24" y="-50.8" smashed="yes" rot="R180">
+<instance part="R23" gate="G$1" x="269.24" y="-50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-48.7426" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-48.768" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R16" gate="G$1" x="269.24" y="-25.4" smashed="yes" rot="R180">
+<instance part="R13" gate="G$1" x="269.24" y="-25.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-23.3426" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-23.368" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R17" gate="G$1" x="269.24" y="-27.94" smashed="yes" rot="R180">
+<instance part="R14" gate="G$1" x="269.24" y="-27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-25.8826" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-25.908" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R18" gate="G$1" x="269.24" y="-30.48" smashed="yes" rot="R180">
+<instance part="R15" gate="G$1" x="269.24" y="-30.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-28.4226" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-28.448" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R19" gate="G$1" x="269.24" y="-33.02" smashed="yes" rot="R180">
+<instance part="R16" gate="G$1" x="269.24" y="-33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-30.9626" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-30.988" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R20" gate="G$1" x="269.24" y="-35.56" smashed="yes" rot="R180">
+<instance part="R17" gate="G$1" x="269.24" y="-35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-33.5026" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-33.528" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R21" gate="G$1" x="269.24" y="-38.1" smashed="yes" rot="R180">
+<instance part="R18" gate="G$1" x="269.24" y="-38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-36.0426" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-36.068" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R22" gate="G$1" x="269.24" y="-40.64" smashed="yes" rot="R180">
+<instance part="R19" gate="G$1" x="269.24" y="-40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-38.5826" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-38.608" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R23" gate="G$1" x="269.24" y="-43.18" smashed="yes" rot="R180">
+<instance part="R20" gate="G$1" x="269.24" y="-43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.606" y="-41.1226" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="-41.148" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="66.04" y="12.7"/>
-<instance part="GND1" gate="1" x="66.04" y="-7.62"/>
-<instance part="C20" gate="G$1" x="266.7" y="-66.04" rot="MR180"/>
-<instance part="C21" gate="G$1" x="276.86" y="-66.04" rot="MR180"/>
-<instance part="GND22" gate="1" x="271.78" y="-71.12" rot="MR0"/>
-<instance part="GND23" gate="1" x="281.94" y="-58.42" smashed="yes" rot="R90">
+<instance part="+3V34" gate="G$1" x="66.04" y="12.7"/>
+<instance part="GND7" gate="1" x="66.04" y="-7.62"/>
+<instance part="C15" gate="G$1" x="266.7" y="-66.04" rot="MR180"/>
+<instance part="C16" gate="G$1" x="276.86" y="-66.04" rot="MR180"/>
+<instance part="GND15" gate="1" x="271.78" y="-71.12" rot="MR0"/>
+<instance part="GND13" gate="1" x="281.94" y="-58.42" smashed="yes" rot="R90">
 <attribute name="VALUE" x="279.4" y="-55.88" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND24" gate="1" x="142.24" y="63.5"/>
+<instance part="GND3" gate="1" x="142.24" y="63.5"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="C17" gate="G$1" pin="1"/>
-<pinref part="+3V39" gate="G$1" pin="+3V3"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="+3V31" gate="G$1" pin="+3V3"/>
 <wire x1="231.14" y1="83.82" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="VCC"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="220.98" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
 <junction x="231.14" y="83.82"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="+3V35" gate="G$1" pin="+3V3"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="+3V32" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT"/>
-<pinref part="C13" gate="G$1" pin="+"/>
+<pinref part="IC2" gate="G$1" pin="OUT"/>
+<pinref part="C6" gate="G$1" pin="+"/>
 <wire x1="215.9" y1="22.86" x2="218.44" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="OUT@1"/>
+<pinref part="IC2" gate="G$1" pin="OUT@1"/>
 <wire x1="218.44" y1="22.86" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="20.32" x2="218.44" y2="22.86" width="0.1524" layer="91"/>
 <junction x="218.44" y="22.86"/>
-<pinref part="+3V310" gate="G$1" pin="+3V3"/>
+<pinref part="+3V33" gate="G$1" pin="+3V3"/>
 <wire x1="220.98" y1="22.86" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="22.86" x2="233.68" y2="25.4" width="0.1524" layer="91"/>
 <junction x="220.98" y="22.86"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="1"/>
-<pinref part="+3V37" gate="G$1" pin="+3V3"/>
+<pinref part="+3V36" gate="G$1" pin="+3V3"/>
 <wire x1="177.8" y1="-2.54" x2="175.26" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="-2.54" x2="175.26" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="+3V33" gate="G$1" pin="+3V3"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="+3V37" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
@@ -24924,24 +24924,24 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U1" gate="G$1" pin="VDDA"/>
 <wire x1="91.44" y1="0" x2="91.44" y2="2.54" width="0.1524" layer="91"/>
 <junction x="91.44" y="2.54"/>
-<pinref part="+3V32" gate="G$1" pin="+3V3"/>
+<pinref part="+3V35" gate="G$1" pin="+3V3"/>
 <wire x1="91.44" y1="2.54" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="+3V38" gate="G$1" pin="+3V3"/>
+<pinref part="+3V39" gate="G$1" pin="+3V3"/>
 <wire x1="182.88" y1="-40.64" x2="182.88" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="VCC"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="IC3" gate="A" pin="VCC"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="-43.18" x2="182.88" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="-43.18" x2="180.34" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="-40.64" x2="182.88" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="182.88" y="-43.18"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
+<pinref part="IC4" gate="G$1" pin="VCC"/>
 <wire x1="165.1" y1="-99.06" x2="157.48" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="+3V36" gate="G$1" pin="+3V3"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="+3V310" gate="G$1" pin="+3V3"/>
 <wire x1="157.48" y1="-99.06" x2="157.48" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="157.48" y="-99.06"/>
 </segment>
@@ -24949,26 +24949,26 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="X2" gate="-2" pin="KL"/>
 <wire x1="264.16" y1="-22.86" x2="274.32" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="-22.86" x2="281.94" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="+3V38" gate="G$1" pin="+3V3"/>
 <wire x1="281.94" y1="-22.86" x2="281.94" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="+3V34" gate="G$1" pin="+3V3"/>
 <wire x1="66.04" y1="10.16" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="2.54" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="7.62" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
 <junction x="66.04" y="7.62"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="7.62" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="7.62" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CUR_LOAD" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="78.74" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
 <junction x="231.14" y="78.74"/>
 <label x="233.68" y="78.74" size="1.778" layer="95"/>
@@ -24981,41 +24981,41 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="VOUT"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="VOUT"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="220.98" y1="73.66" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="220.98" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
 <junction x="226.06" y="71.12"/>
 </segment>
 <segment>
 <pinref part="G1" gate="G$1" pin="EMIT"/>
-<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="152.4" y1="33.02" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="33.02" x2="154.94" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="ADJ"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="C10" gate="G$1" pin="-"/>
+<pinref part="IC2" gate="G$1" pin="ADJ"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="C5" gate="G$1" pin="-"/>
 <wire x1="190.5" y1="15.24" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="15.24" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
 <junction x="208.28" y="15.24"/>
 <junction x="198.12" y="15.24"/>
-<pinref part="C13" gate="G$1" pin="-"/>
+<pinref part="C6" gate="G$1" pin="-"/>
 <wire x1="208.28" y1="15.24" x2="220.98" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="15.24" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -25024,16 +25024,16 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="205.74" y1="-12.7" x2="210.82" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="-12.7" x2="215.9" y2="-12.7" width="0.1524" layer="91"/>
@@ -25046,101 +25046,101 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U1" gate="G$1" pin="VSS1"/>
 <wire x1="101.6" y1="-106.68" x2="104.14" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-106.68" x2="104.14" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="GND24" gate="1" pin="GND"/>
 <junction x="101.6" y="-106.68"/>
 </segment>
 <segment>
-<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="PB8-BOOT0"/>
 <wire x1="73.66" y1="-96.52" x2="73.66" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-93.98" x2="76.2" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="WP"/>
+<pinref part="IC3" gate="A" pin="WP"/>
 <wire x1="185.42" y1="-60.96" x2="182.88" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="182.88" y1="-60.96" x2="182.88" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="VSS"/>
+<pinref part="IC3" gate="A" pin="VSS"/>
 <wire x1="182.88" y1="-66.04" x2="182.88" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="-66.04" x2="182.88" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="182.88" y="-66.04"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="RS"/>
-<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="IC4" gate="G$1" pin="RS"/>
+<pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="IC4" gate="G$1" pin="GND"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="2"/>
-<pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="X2" gate="-1" pin="KL"/>
 <wire x1="264.16" y1="-20.32" x2="274.32" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="-5.08" x2="66.04" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="-5.08" x2="60.96" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="0" x2="66.04" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="66.04" y="-5.08"/>
-<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C20" gate="G$1" pin="1"/>
-<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="-68.58" x2="271.78" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="271.78" y1="-68.58" x2="276.86" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="271.78" y="-68.58"/>
 </segment>
 <segment>
 <pinref part="X2" gate="-16" pin="KL"/>
 <wire x1="264.16" y1="-58.42" x2="279.4" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND24" gate="1" pin="GND"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="66.04" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="AC"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="D2" gate="G$1" pin="AC"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="AC"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -25148,7 +25148,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="86.36" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="33.02" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
@@ -25158,11 +25158,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="96.52" y1="38.1" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <junction x="96.52" y="53.34"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="40.64" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <junction x="104.14" y="53.34"/>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="111.76" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="48.26" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <junction x="111.76" y="53.34"/>
@@ -25174,7 +25174,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="81.28" y1="40.64" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="81.28" y1="22.86" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="20.32" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
@@ -25185,7 +25185,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="96.52" y1="33.02" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="20.32" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
 <junction x="96.52" y="20.32"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="30.48" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="-"/>
 <wire x1="104.14" y1="20.32" x2="111.76" y2="20.32" width="0.1524" layer="91"/>
@@ -25202,8 +25202,8 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="111.76" y1="33.02" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="38.1" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <junction x="111.76" y="38.1"/>
@@ -25211,7 +25211,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
 </segment>
 </net>
@@ -25224,7 +25224,7 @@ Source: AVX .. aphvc.pdf</description>
 <net name="ZERO_CROSS" class="0">
 <segment>
 <pinref part="G1" gate="G$1" pin="COL"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="38.1" x2="154.94" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="38.1" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="38.1" x2="162.56" y2="38.1" width="0.1524" layer="91"/>
@@ -25240,19 +25240,19 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="OK1" gate="-1" pin="A2"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="OK1" gate="-1" pin="A1"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="G"/>
 <wire x1="182.88" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
@@ -25273,17 +25273,17 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="A2"/>
 <wire x1="187.96" y1="71.12" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="76.2" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
 <junction x="187.96" y="76.2"/>
 <wire x1="195.58" y1="93.98" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
 <junction x="195.58" y="76.2"/>
-<pinref part="IC4" gate="G$1" pin="IP+"/>
+<pinref part="IC1" gate="G$1" pin="IP+"/>
 <wire x1="195.58" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="93.98" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
 </segment>
@@ -25292,12 +25292,12 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="T1" gate="G$1" pin="A1"/>
 <wire x1="187.96" y1="63.5" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="55.88" x2="195.58" y2="55.88" width="0.1524" layer="91"/>
 <junction x="187.96" y="55.88"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="40.64" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="40.64" x2="195.58" y2="55.88" width="0.1524" layer="91"/>
 <junction x="195.58" y="55.88"/>
@@ -25305,8 +25305,8 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="50HZ_1" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="45.72" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="50.8" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="50.8" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
@@ -25314,32 +25314,32 @@ Source: AVX .. aphvc.pdf</description>
 <label x="208.28" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 <label x="60.96" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="50HZ_0" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="IP-"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="IP-"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="66.04" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
 <junction x="205.74" y="66.04"/>
 <label x="208.28" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
 <label x="60.96" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="IN"/>
-<pinref part="C10" gate="G$1" pin="+"/>
+<pinref part="IC2" gate="G$1" pin="IN"/>
+<pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="198.12" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="22.86" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
 <junction x="198.12" y="22.86"/>
 </segment>
@@ -25347,7 +25347,7 @@ Source: AVX .. aphvc.pdf</description>
 <net name="SWCLK" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="2"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="-5.08" x2="172.72" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="-5.08" x2="172.72" y2="0" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="-5.08" x2="165.1" y2="-5.08" width="0.1524" layer="91"/>
@@ -25379,8 +25379,8 @@ Source: AVX .. aphvc.pdf</description>
 <label x="165.1" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="NRST"/>
 <wire x1="121.92" y1="-22.86" x2="134.62" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="134.62" y="-22.86"/>
@@ -25391,7 +25391,7 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$16" class="0">
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="-5.08" x2="215.9" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="215.9" y="-5.08"/>
@@ -25414,7 +25414,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="OSC_OUT" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="5.08" x2="215.9" y2="7.62" width="0.1524" layer="91"/>
 <label x="215.9" y="5.08" size="1.778" layer="95"/>
 </segment>
@@ -25431,7 +25431,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="63.5" y="-43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="SDA"/>
+<pinref part="IC3" gate="A" pin="SDA"/>
 <wire x1="220.98" y1="-43.18" x2="228.6" y2="-43.18" width="0.1524" layer="91"/>
 <label x="223.52" y="-43.18" size="1.778" layer="95"/>
 </segment>
@@ -25443,7 +25443,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="63.5" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="SCL"/>
+<pinref part="IC3" gate="A" pin="SCL"/>
 <wire x1="185.42" y1="-58.42" x2="175.26" y2="-58.42" width="0.1524" layer="91"/>
 <label x="172.72" y="-58.42" size="1.778" layer="95"/>
 </segment>
@@ -25455,7 +25455,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="63.5" y="-53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="-91.44" x2="139.7" y2="-91.44" width="0.1524" layer="91"/>
 <label x="137.16" y="-91.44" size="1.778" layer="95"/>
 </segment>
@@ -25467,17 +25467,17 @@ Source: AVX .. aphvc.pdf</description>
 <label x="63.5" y="-48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="-104.14" x2="139.7" y2="-104.14" width="0.1524" layer="91"/>
 <label x="137.16" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="CANL"/>
+<pinref part="IC4" gate="G$1" pin="CANL"/>
 <wire x1="193.04" y1="-99.06" x2="200.66" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-99.06" x2="200.66" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="-104.14" x2="208.28" y2="-104.14" width="0.1524" layer="91"/>
 <junction x="208.28" y="-104.14"/>
 <wire x1="208.28" y1="-104.14" x2="210.82" y2="-104.14" width="0.1524" layer="91"/>
@@ -25485,10 +25485,10 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="210.82" y1="-104.14" x2="213.36" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="-104.14" x2="215.9" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="-104.14" x2="215.9" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <pinref part="J5" gate="G$1" pin="2"/>
 <junction x="228.6" y="-106.68"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 <junction x="228.6" y="-91.44"/>
 <wire x1="228.6" y1="-91.44" x2="228.6" y2="-96.52" width="0.1524" layer="91"/>
@@ -25500,26 +25500,26 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="D"/>
+<pinref part="IC4" gate="G$1" pin="D"/>
 <wire x1="165.1" y1="-93.98" x2="165.1" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-91.44" x2="160.02" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="R"/>
+<pinref part="IC4" gate="G$1" pin="R"/>
 <wire x1="165.1" y1="-101.6" x2="165.1" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-104.14" x2="160.02" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="CANH"/>
+<pinref part="IC4" gate="G$1" pin="CANH"/>
 <wire x1="193.04" y1="-96.52" x2="200.66" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-96.52" x2="200.66" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="-93.98" x2="208.28" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="208.28" y="-93.98"/>
 <wire x1="208.28" y1="-93.98" x2="210.82" y2="-93.98" width="0.1524" layer="91"/>
@@ -25527,7 +25527,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="210.82" y1="-93.98" x2="213.36" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="-93.98" x2="215.9" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="-93.98" x2="215.9" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 <pinref part="J5" gate="G$1" pin="1"/>
 <junction x="233.68" y="-106.68"/>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -25549,7 +25549,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="274.32" y1="-25.4" x2="279.4" y2="-25.4" width="0.1524" layer="91"/>
 <label x="279.4" y="-25.4" size="1.778" layer="95"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -25561,7 +25561,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="274.32" y1="-27.94" x2="279.4" y2="-27.94" width="0.1524" layer="91"/>
 <label x="279.4" y="-27.94" size="1.778" layer="95"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="C" class="0">
@@ -25573,7 +25573,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="274.32" y1="-30.48" x2="279.4" y2="-30.48" width="0.1524" layer="91"/>
 <label x="279.4" y="-30.48" size="1.778" layer="95"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="D" class="0">
@@ -25585,7 +25585,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="274.32" y1="-33.02" x2="279.4" y2="-33.02" width="0.1524" layer="91"/>
 <label x="279.4" y="-33.02" size="1.778" layer="95"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="E" class="0">
@@ -25597,7 +25597,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="274.32" y1="-35.56" x2="279.4" y2="-35.56" width="0.1524" layer="91"/>
 <label x="279.4" y="-35.56" size="1.778" layer="95"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="F" class="0">
@@ -25609,7 +25609,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="274.32" y1="-38.1" x2="279.4" y2="-38.1" width="0.1524" layer="91"/>
 <label x="279.4" y="-38.1" size="1.778" layer="95"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="G" class="0">
@@ -25621,7 +25621,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="274.32" y1="-40.64" x2="279.4" y2="-40.64" width="0.1524" layer="91"/>
 <label x="279.4" y="-40.64" size="1.778" layer="95"/>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DP" class="0">
@@ -25633,25 +25633,25 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="274.32" y1="-43.18" x2="279.4" y2="-43.18" width="0.1524" layer="91"/>
 <label x="279.4" y="-43.18" size="1.778" layer="95"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="X2" gate="-11" pin="KL"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="X2" gate="-12" pin="KL"/>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="X2" gate="-13" pin="KL"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SW0" class="0">
@@ -25659,7 +25659,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="X2" gate="-14" pin="KL"/>
 <wire x1="264.16" y1="-53.34" x2="266.7" y2="-53.34" width="0.1524" layer="91"/>
 <label x="279.4" y="-53.34" size="1.778" layer="95"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="-53.34" x2="279.4" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="-60.96" x2="266.7" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="266.7" y="-53.34"/>
@@ -25675,7 +25675,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="X2" gate="-15" pin="KL"/>
 <wire x1="264.16" y1="-55.88" x2="276.86" y2="-55.88" width="0.1524" layer="91"/>
 <label x="279.4" y="-55.88" size="1.778" layer="95"/>
-<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="-55.88" x2="279.4" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="-60.96" x2="276.86" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="276.86" y="-55.88"/>
@@ -25688,7 +25688,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="DG0" class="0">
 <segment>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-45.72" x2="279.4" y2="-45.72" width="0.1524" layer="91"/>
 <label x="279.4" y="-45.72" size="1.778" layer="95"/>
 </segment>
@@ -25700,7 +25700,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="DG1" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-48.26" x2="279.4" y2="-48.26" width="0.1524" layer="91"/>
 <label x="279.4" y="-48.26" size="1.778" layer="95"/>
 </segment>
@@ -25712,7 +25712,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="DG2" class="0">
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-50.8" x2="279.4" y2="-50.8" width="0.1524" layer="91"/>
 <label x="279.4" y="-50.8" size="1.778" layer="95"/>
 </segment>
@@ -25725,55 +25725,55 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$15" class="0">
 <segment>
 <pinref part="X2" gate="-3" pin="KL"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="X2" gate="-4" pin="KL"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="X2" gate="-5" pin="KL"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="X2" gate="-6" pin="KL"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="X2" gate="-7" pin="KL"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="X2" gate="-8" pin="KL"/>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="X2" gate="-9" pin="KL"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="X2" gate="-10" pin="KL"/>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="OK1" gate="-1" pin="C"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
