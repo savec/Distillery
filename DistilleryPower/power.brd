@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17,8 +17,8 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -256,13 +256,13 @@
 <hole x="52.8" y="1.8" drill="2"/>
 <hole x="52.8" y="47.2" drill="2"/>
 <wire x1="50" y1="7" x2="51" y2="7" width="0" layer="20" curve="-180"/>
-<hole x="50.5" y="8" drill="0.7"/>
-<hole x="50.5" y="9" drill="0.7"/>
+<hole x="50.5" y="8" drill="0.6"/>
+<hole x="50.5" y="9" drill="0.6"/>
 <wire x1="51" y1="10" x2="50" y2="10" width="0" layer="20" curve="-180"/>
 <wire x1="50" y1="39" x2="51" y2="39" width="0" layer="20" curve="-180"/>
 <wire x1="51" y1="42" x2="50" y2="42" width="0" layer="20" curve="-180"/>
-<hole x="50.5" y="40" drill="0.7"/>
-<hole x="50.5" y="41" drill="0.7"/>
+<hole x="50.5" y="40" drill="0.6"/>
+<hole x="50.5" y="41" drill="0.6"/>
 </plain>
 <libraries>
 <library name="allegro">
@@ -3253,7 +3253,7 @@ design rules under a new name.</description>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdDrill" value="0.3mm"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="10mil"/>
 <param name="msDrill" value="16mil"/>
@@ -3722,9 +3722,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="65.555" y="7.52" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="65.695" y="7.62" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C28" library="rcl" package="SMC_B" value="10u/25" x="55.535" y="5.715" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.83" y="5.21" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="58.075" y="3.81" size="1.016" layer="27" rot="R90"/>
+<element name="C28" library="rcl" package="SMC_B" value="10u/25" x="55.535" y="6.715" smashed="yes" rot="R90">
+<attribute name="NAME" x="53.83" y="6.21" size="0.6096" layer="25" rot="R90"/>
+<attribute name="VALUE" x="58.075" y="4.81" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="R19" library="rcl" package="R0603" value="" x="59.98" y="37.465" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.345" y="36.195" size="0.6096" layer="25" rot="R90"/>
@@ -4815,8 +4815,8 @@ design rules under a new name.</description>
 <wire x1="87.63658125" y1="27.305" x2="90.46" y2="27.305" width="0.4064" layer="1"/>
 <wire x1="86.435" y1="26.035" x2="86.435" y2="26.10341875" width="0.4064" layer="1"/>
 <wire x1="91.476" y1="38.1" x2="91.476" y2="38.735" width="1.016" layer="1"/>
-<wire x1="58.71" y1="4.445" x2="55.765" y2="4.445" width="1.016" layer="1"/>
-<wire x1="55.765" y1="4.445" x2="55.535" y2="4.215" width="1.016" layer="1"/>
+<wire x1="57.71" y1="5.445" x2="55.765" y2="5.445" width="1.016" layer="1"/>
+<wire x1="55.765" y1="5.445" x2="55.535" y2="5.215" width="1.016" layer="1"/>
 <wire x1="72.3625" y1="18.095" x2="73.315" y2="17.1425" width="0.8128" layer="1"/>
 <wire x1="73.315" y1="17.1425" x2="73.315" y2="13.335" width="0.8128" layer="1"/>
 <wire x1="73.315" y1="13.335" x2="73.315" y2="1.524" width="0.8128" layer="1"/>
@@ -4837,9 +4837,9 @@ design rules under a new name.</description>
 <wire x1="71.0925" y1="20.74" x2="72.1475" y2="20.74" width="0.8128" layer="1"/>
 <wire x1="72.1475" y1="20.74" x2="72.3625" y2="20.955" width="0.8128" layer="1"/>
 <wire x1="72.1475" y1="28.36" x2="71.0925" y2="28.36" width="0.8128" layer="1"/>
-<wire x1="58.71" y1="1.524" x2="55.789" y2="1.524" width="1.016" layer="1"/>
-<wire x1="55.789" y1="1.524" x2="55.765" y2="1.548" width="1.016" layer="1"/>
-<wire x1="55.765" y1="1.548" x2="55.765" y2="4.445" width="1.016" layer="1"/>
+<wire x1="58.71" y1="1.524" x2="57.789" y2="1.524" width="1.016" layer="1"/>
+<wire x1="57.789" y1="1.524" x2="55.765" y2="3.548" width="1.016" layer="1"/>
+<wire x1="55.765" y1="3.548" x2="55.765" y2="5.445" width="1.016" layer="1"/>
 <wire x1="91.476" y1="35.56" x2="84.745" y2="35.56" width="0.3048" layer="1"/>
 <wire x1="84.745" y1="35.56" x2="81.57" y2="38.735" width="0.3048" layer="1"/>
 <wire x1="81.57" y1="38.735" x2="81.57" y2="41.06" width="0.3048" layer="1"/>
@@ -4858,6 +4858,7 @@ design rules under a new name.</description>
 <wire x1="87.555" y1="45.72" x2="91.476" y2="41.799" width="1.016" layer="1"/>
 <wire x1="91.476" y1="41.799" x2="91.476" y2="40.005" width="1.016" layer="1"/>
 <wire x1="86.015" y1="45.72" x2="87.555" y2="45.72" width="1.016" layer="1"/>
+<wire x1="58.71" y1="4.445" x2="57.71" y2="5.445" width="1.016" layer="1"/>
 </signal>
 <signal name="!I_NRST">
 <contactref element="R16" pad="1"/>
@@ -4913,8 +4914,8 @@ design rules under a new name.</description>
 <wire x1="77.125" y1="29.845" x2="77.125" y2="29.63" width="0.4064" layer="1"/>
 <via x="77.125" y="29.845" extent="1-16" drill="0.6096"/>
 <wire x1="78.18" y1="28.575" x2="77.125" y2="29.63" width="0.4064" layer="1"/>
-<wire x1="55.535" y1="7.215" x2="55.535" y2="9.525" width="1.016" layer="1"/>
-<via x="55.535" y="9.525" extent="1-16" drill="0.6096"/>
+<wire x1="55.535" y1="8.215" x2="55.535" y2="10.525" width="1.016" layer="1"/>
+<via x="55.535" y="10.525" extent="1-16" drill="0.6096"/>
 <wire x1="61.25" y1="9.105" x2="61.25" y2="10.795" width="1.016" layer="1"/>
 <via x="61.25" y="10.795" extent="1-16" drill="0.6096"/>
 <wire x1="63.79" y1="9.105" x2="63.79" y2="10.795" width="1.016" layer="1"/>
